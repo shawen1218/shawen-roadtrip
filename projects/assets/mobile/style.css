@@ -566,4 +566,7 @@ pre{background:#0f1724;color:#e6eef8;padding:12px;border-radius:8px;overflow:aut
 .history-trip-chip{max-width:100%;padding:8px 8px 8px 10px;border-radius:999px;border:1px solid rgba(15,23,42,0.1);background:rgba(255,255,255,0.7);color:var(--text);box-shadow:0 6px 16px rgba(15,23,42,0.08);font-size:12px;font-weight:700;line-height:1.25;white-space:normal;text-align:left;display:inline-flex;align-items:center;gap:6px}
 .history-trip-label{min-width:0;overflow:hidden;text-overflow:ellipsis}
 .delete-history-btn{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:rgba(15,23,42,0.08);color:#64748b;font-size:13px;font-weight:900;line-height:1;flex:0 0 auto}
-.history-empty-note{width:100%;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,0.58);border:1px dashed rgba(15,23,42,0.14);color:var(--muted);font-size:12px;font-weight:700;line-height:1.5}
+.history-empty-note{width:100%;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,0.58);border:1px dashed rgba(15,23,42,0.14);color:var(--muted);font-size:12px;font-weight:700;line-height:1.5
+                   .hidden-modal {
+    display: none !important;
+}
