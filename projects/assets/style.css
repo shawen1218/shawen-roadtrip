@@ -819,4 +819,8 @@ div[style*="background: rgba(255, 255, 255, 0.65)"] {
   #mobilePosterModal{padding:10px}
   .mobile-poster-panel{width:100%;height:96vh}
   .mobile-poster-tip{font-size:13px;text-align:left}
+  /* 强制让所有带隐藏标签的弹窗在初始化时隐形 */
+.hidden-modal {
+    display: none !important;
+}
 }
